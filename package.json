@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/vanshiqa/kickstart-udemy-tutorial/issues"
   },
-  "homepage": "https://github.com/vanshiqa/kickstart-udemy-tutorial#readme"
+  "homepage": "https://github.com/vanshiqa/kickstart-udemy-tutorial#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.0.2",
+    "solc": "^0.4.17",
+    "web3": "^1.0.0-beta.26"
+  }
 }
